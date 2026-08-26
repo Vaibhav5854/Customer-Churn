@@ -1,0 +1,34 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# ML / generated files
+checkpoints/
+outputs/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+
+# Datasets
+data/
+datasets/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
