@@ -20,7 +20,14 @@ runs/
 *.pth
 *.pt
 *.ckpt
-*.pkl
+
+# Old / temporary model files
+model.h5
+model.keras
+best_model.joblib
+label_encoder_gender.pkl
+onehot_encoder_geo.pkl
+scaler.pkl
 
 # Datasets
 data/
@@ -28,6 +35,7 @@ datasets/
 
 # Logs
 *.log
+logs/
 
 # OS
 .DS_Store

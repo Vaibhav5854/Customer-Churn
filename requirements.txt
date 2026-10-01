@@ -1,7 +1,11 @@
 tensorflow==2.15.0
+numpy<2
 pandas
-numpy
 scikit-learn
 tensorboard
 matplotlib
+seaborn
 streamlit
+joblib
+xgboost
+lightgbm
