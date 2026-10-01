@@ -1,6 +1,0 @@
-Model,Type,Churn Probability,Prediction,Risk Segment,Recommended Action
-Logistic Regression,Traditional ML,26.7,No Churn,Low,Routine monitoring
-Random Forest,Traditional ML,21.64,No Churn,Low,Routine monitoring
-XGBoost,Traditional ML,4.91,No Churn,Low,Routine monitoring
-LightGBM,Traditional ML,17.21,No Churn,Low,Routine monitoring
-Keras ANN,Deep Learning,5.68,No Churn,Low,Routine monitoring
