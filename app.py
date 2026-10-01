@@ -11,7 +11,7 @@ st.set_page_config(page_title="Customer Churn Prediction",page_icon="📊",layou
 @st.cache_resource
 def load_models():
     ml_models=joblib.load("ml_models.joblib")
-    ann=tf.keras.models.load_model("keras_ann.keras")
+    ann=tf.keras.models.load_model("keras_ann.h5",compile=False)
     ann_preprocessor=joblib.load("ann_preprocessor.joblib")
     thresholds=joblib.load("model_thresholds.joblib")
     comparison=pd.read_csv("optimized_model_comparison.csv")
