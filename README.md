@@ -1,4 +1,4 @@
- Customer Churn Prediction & Risk Analytics
+## Customer Churn Prediction & Risk Analytics
 
 An end-to-end machine learning system for predicting customer churn, comparing traditional machine learning models with a deep learning ANN, and converting churn probabilities into actionable customer risk segments.
 
